@@ -7,12 +7,12 @@
 }
 
 .App {
-  max-width: 600px;
+  max-width: 70%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .card2{
-  max-width: 600px;
+  max-width: 60%;
 }
 #navigation {
   margin-bottom: 2rem;
@@ -31,4 +31,31 @@
 button {
     min-width: 80px;
 }
+.img-cat{
+   width: 50%;
+   border-radius: 5px;
+}
+.cat{
+   padding: 20px;
+   text-align: center;
+   justify-items: center;
+   
+}
+.cat div{
+display: flex;
+align-items: center;
+}
+.cat div p{
+   padding: 1rem;
+   font-size: 1rem;
+}
 
+@media screen and (max-width: 1040px){
+   .cat div{
+      display: block;
+   }
+   .img-cat{
+      width: 80%;
+   }
+   
+}

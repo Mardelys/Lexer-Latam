@@ -6,6 +6,7 @@ import Slides from './components/Slides';
 import { ARTICLES } from './data/dataArticle';
 import { SLIDES } from './data/dataSlides';
 import './App.css';
+import RandomCat from './components/RandomCat';
 
 const App = () => {
   return (
@@ -13,12 +14,12 @@ const App = () => {
       <div id="navigation" className="text-center">
         <NavLink to={`/`}> <button className="outlined" >1</button></NavLink>
         <NavLink to={`/point_two`}> <button className="outlined">2</button></NavLink>
-        <button className="outlined">3</button>
+        <NavLink  to= {`/point_three`}><button className="outlined">3</button></NavLink>
       </div>
       <Routes>
         <Route exact path="/" element={<Slides dataSlides={SLIDES}/>}/>
         <Route path="/point_two"  element={<Articles dataArticle={ARTICLES}/>}/>
-        <Route path="/point_three" element={<Slides/>} />
+        <Route path="/point_three" element={<RandomCat />} />
       </Routes>
     </BrowserRouter>
   )
