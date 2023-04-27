@@ -1,4 +1,4 @@
-/*## Project Specifications 
+<!--## Project Specifications 
 
 ### 1- Crear una aplicación de presentación de diapositivas básica:
 
@@ -31,4 +31,4 @@
 - url Imagen random : https://cataas.com/cat/says/${PRIMERAPALABRA}?size=50&color=red&json=true
 - mostrar imagen random (src): https://cataas.com${url} 
 - documentacion: https://cataas.com/#/
-*/
+-->
