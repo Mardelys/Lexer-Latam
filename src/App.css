@@ -7,12 +7,12 @@
 }
 
 .App {
-  max-width: 600px;
+  max-width: 70%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .card2{
-  max-width: 600px;
+  max-width: 60%;
 }
 #navigation {
   margin-bottom: 2rem;
@@ -31,4 +31,50 @@
 button {
     min-width: 80px;
 }
+.img-cat{
+   width: 50%;
+   border-radius: 5px;
+}
+.cat{
+   padding: 20px;
+   text-align: center;
+   justify-items: center;
+   
+}
 
+.cat div p{
+   padding: 1rem;
+   font-size: 1rem;
+   
+}
+.loading{
+   text-align: center;
+   color: green;
+}
+@media screen and (max-width: 1040px){
+   .img-cat{
+      width: 80%;
+   }
+   
+}
+
+/*-----------LOADING SCRIPT-----------*/
+@keyframes animate8345 {
+   0%,100% {
+     filter: hue-rotate(0deg);
+   }
+ 
+   50% {
+     filter: hue-rotate(360deg);
+   }
+ }
+ 
+ .loader {
+   color: rgb(0, 0, 0);
+   background: linear-gradient( 73.1deg,  rgba(34,126,34,1) 8%, rgba(99,162,17,1) 86.9% );
+   font-size: 30px;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate8345 9s linear infinite;
+   font-weight: bold;
+ }
