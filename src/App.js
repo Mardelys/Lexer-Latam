@@ -18,7 +18,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Slides dataSlides={SLIDES}/>}/>
         <Route path="/point_two"  element={<Articles dataArticle={ARTICLES}/>}/>
-        <Route path="*" element={<Slides/>} />
+        <Route path="/point_three" element={<Slides/>} />
       </Routes>
     </BrowserRouter>
   )
